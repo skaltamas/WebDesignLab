@@ -1,19 +1,18 @@
-body{
-	font-size: 16pt;
+*{
 	margin:0;
-	box-sizing: border-box;
+	font-size: 16pt;
+	padding:0;
 }
 
-header > nav ul, footer{
+header > nav ul{
 	list-style: none;
-	background-color: #4f4f4f;
-	margin:0;
+	background-color: #3f3f3f;
 	text-align: center;
-	font-size: 18pt;
 }
 header > nav ul li > a{
 	text-decoration: none;
 	color: #ffffff;
+	font-size: 18pt;
 }
 
 header > nav ul li{
@@ -22,28 +21,40 @@ header > nav ul li{
 	padding: 10px;
 }
 
-footer>div{
-	padding: 10px;
+footer{
+	list-style: none;
+	background-color: #3f3f3f;
+	text-align: center;
 	color: #ffffff;
+	padding: 10px;
+	position: fixed;
+	bottom:0;
+	width: 100%;
 }
-
+main{
+	margin-top: 1%;
+}
 .myphoto{
 	text-align: center;
 	color: #0077b5;
 }
 .myphoto img{
-	width:30%;
-	border: 1px solid #000000;
+	width: 20%;
+	border: 2px solid #000000;
 	border-radius: 50%;
 }
 .contact-form,.social-media{
 	position: relative;
 	float: left;
-	width:45%;
-	margin-left:2%; 
+	width: 45%;
+	margin-left: 2%;
+	border: 1px solid black;
+	padding: 10px;
 }
-footer{
-	position: fixed;
-	width: 100%;
-	bottom: 0;
+.social-media > a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }

@@ -1,0 +1,38 @@
+header> nav ul{
+		list-style: none;
+
+}
+header > nav ul li >a{
+ display: inline-block;
+
+}
+header > nav ul {
+list-style: none;
+background-color: #333333; 
+position: fixed;}
+main{
+	margin-right: 10px;
+}
+
+.
+.contact-form,.social-media{
+	position: relative;
+	float: left;
+width: 48%
+margin-right:2%;
+border:1px solid #00000;
+.myphoto img{
+	text-align: center;
+}
+.contact-form h3{
+	text-align: center;
+}
+.contact-form *{
+	margine-bottom;
+ background:#444444;
+}
+.contact-form[type="submit"]{
+	width: 100px;
+
+display: block;
+margin:0 auto;}
